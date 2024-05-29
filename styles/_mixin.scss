@@ -1,0 +1,28 @@
+@mixin flex () {
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin fonts ($font-family: "Roboto", $font-weight: 400, $color: #636060, $text-decoration: none) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    color: $color;
+    text-decoration: $text-decoration;
+} 
+@mixin h3 () {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #343232;
+}
+@mixin p () {
+    font-size: 18px;
+    font-weight: 400;
+    color: #636060;
+}
+@mixin container () {
+    margin-top: 10px;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
